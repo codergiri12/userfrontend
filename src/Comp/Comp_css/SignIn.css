@@ -1,0 +1,42 @@
+.form__containerIn {
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px auto;
+  background: white;
+  height: 60vh;
+  box-shadow: 0px 0px 0.2rem 0.01rem black;
+}
+.main__container {
+  padding-top: 40px;
+  height: 93vh;
+  background: #d3d3d361;
+}
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 20px;
+  color: #d01818;
+  text-decoration: underline;
+  font-weight: 400;
+}
+.top div , .middle div {
+  height: 50px;
+}
+label#filled-required-label {
+  font-size: 14px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.submit.MuiButton-containedPrimary {
+  margin-top: 20px;
+}
+.MuiFormControl-root.MuiTextField-root.common-field {
+  margin: 10px;
+}
+.MuiFormControl-root.MuiTextField-root.common-field.full {
+  width: 460px;
+}
+@media screen and (max-width:477px){
+  .MuiFormControl-root.MuiTextField-root.common-field.full {
+    width: 216px;
+  }
+}
